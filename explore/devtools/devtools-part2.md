@@ -1,0 +1,2 @@
+1. The bug is that both num1 and num2 are strings, not numbers. The plus operator is used for string concatenation, therefore it is concatenated.
+2. To fix it, you can convert both inputs to numbers with Number(). 
